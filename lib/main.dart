@@ -1,12 +1,25 @@
-import 'package:expenses_app/widgets/transaction_list.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
 import 'widgets/chart.dart';
 import './widgets/transaction_list.dart';
 import './widgets/new_transaction.dart';
 import './models/transaction.dart';
 
-void main() => runApp(MyApp());
-
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]).then((_) { 
+    runApp(new MyApp());
+  });
+}
+/*The 'setPreferredOrientations' method returns a Future object. Per documentation a Future 
+ represents some value that will be available somewhere in future. That's why you shall wait 
+ until it's available and then move on with the application. Hence, there shall be used 'then'
+ method, which, per definition, "registers callbacks to be called when the Future completes". 
+ */
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
