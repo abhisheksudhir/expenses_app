@@ -1,0 +1,30 @@
+[33m18b8d75[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m builder methods
+[33m1202161[m[33m ([m[1;31morigin/master[m[33m)[m extracting widgets
+[33mf858e4f[m const widgets and constructors
+[33m01753be[m custom adaptive widgets
+[33m0fe1953[m cupertino for ios
+[33m6fbc189[m Using device size in conditions
+[33m93bf419[m Respecting the Softkeyboard Insets
+[33m54ca876[m showing different content based on orientation
+[33mf26a0e8[m controlling device orientation
+[33m9f23831[m layout builder widget
+[33m3332e94[m calculating sizes dynamically
+[33m3dda189[m final polishing
+[33m0bb462d[m deleting transactions and using iconbuttons
+[33m755164e[m adding user date input
+[33m235797a[m datepicker
+[33mf900fb6[m making a few changes in the chart
+[33mb191ee9[m ListTile Widget
+[33m2d2ed38[m displaying the chart on the app
+[33m1167f5a[m creating chart widget and displaying it's details in debug console
+[33mbfffa4e[m fonts, themes and images
+[33mcb3df40[m modol bottom sheet
+[33ma0e9cd3[m futher input and output styling and configuration
+[33m9b965ed[m working with listviews
+[33m0f7abc5[m adding scrolling
+[33m013eb02[m Splitting app into widgets and managing user input
+[33md24c0ed[m adding textfield and storing user input
+[33m97fc31e[m using date formatting tool
+[33me7b25ab[m styling the transaction widget
+[33ma7f838c[m adding transaction model and mapping its data into widgets
+[33mb6915e7[m basic layout
