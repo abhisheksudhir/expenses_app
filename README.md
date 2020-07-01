@@ -1,6 +1,13 @@
 # expenses_app
 
-A new Flutter project.
+A expenses app that provides track of your expenses and graphical representation of expenses in last 7 days.
+
+## Screenshots
+![](images/1.PNG)
+![](images/2.PNG)
+![](images/3.PNG)
+![](images/4.PNG)
+![](images/5.PNG)
 
 ## Getting Started
 
